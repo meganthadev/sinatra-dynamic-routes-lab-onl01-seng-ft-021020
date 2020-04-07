@@ -13,5 +13,7 @@ class App < Sinatra::Base
     @square = @number.to_i*@number.to_i 
     "#{square}"
   end   
+  
+  get 
 
 end

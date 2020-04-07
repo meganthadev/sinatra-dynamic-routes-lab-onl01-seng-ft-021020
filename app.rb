@@ -7,5 +7,7 @@ class App < Sinatra::Base
     @reversename =@name.reverse
     "#{reversename}"
   end   
+  
+  get 
 
 end
